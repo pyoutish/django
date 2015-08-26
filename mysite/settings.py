@@ -63,7 +63,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/pyoutish/djproject/mysite/mysite/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
